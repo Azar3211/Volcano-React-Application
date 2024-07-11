@@ -1,0 +1,61 @@
+.volcano-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    /* Max width for better control on large screens */
+    margin: auto;
+    /* Center align the container */
+    background-color: #00000075;
+    /* subtle background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    border-radius: 8px;
+    color: white;
+    /* Rounded corners */
+    padding-bottom: 150px;
+    max-height: calc(100vh - 50px);
+
+
+}
+
+/* body {
+    overflow: scroll;
+} */
+
+.volcano-list-search,
+.volcano-list-drop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.volcano-list-search {
+    margin-right: 20px;
+    /* Spacing between search and dropdown */
+}
+
+.radius-container {
+    flex-grow: 1;
+    /* Allows dropdown to fill the space in its container */
+    max-width: 300px;
+    /* Max width to prevent overstretching */
+    background-color: white;
+}
+
+/* Styling for the AG-Grid table container */
+.volcano-list-table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}

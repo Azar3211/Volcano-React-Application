@@ -1,0 +1,81 @@
+.registration-form {
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.form-container-register {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #00000082;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-decoration: underline #fff;
+    font-size: 2.5rem;
+}
+
+.form-group-register input {
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid #fff;
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.form-group-register input::placeholder {
+    color: white;
+}
+
+.form-group-register i {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.register-btn-register,
+.login-btn-register {
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    box-shadow: 0 0 10px 0 #00000082;
+}
+
+.register-btn-register {
+    margin-bottom: 2.5rem;
+}
+
+.login-btn-register:hover {
+    background-color: #3f24ad;
+    transition: .5s ease;
+    color: white;
+}
+
+.register-btn-register:hover {
+    background-color: #3f24ad;
+    transition: .5s ease;
+    color: white;
+}

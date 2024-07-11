@@ -1,0 +1,43 @@
+.volcanoDetail-container {
+    color: white;
+    display: flex;
+    margin-left: -15px;
+    columns: 3;
+}
+
+.volcano-facts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #00000082;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.map-container {
+    text-decoration: underline;
+    text-align: center;
+    justify-content: flex-start;
+    margin-right: 35px;
+}
+
+.volcano-pop {
+    color: white;
+    background-color: #ffffff8a;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+}
+
+.login-pop {
+    align-items: center;
+    margin: auto;
+}

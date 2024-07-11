@@ -1,0 +1,82 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.home-message {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.261);
+    color: white;
+    font-size: 1.1rem;
+    width: fit-content;
+
+
+}
+
+.intro-message,
+.intro-message1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300%;
+}
+
+.home-explore,
+.home-signup-btn {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.home-explore:hover,
+.home-signup-btn:hover {
+    background-color: #3f24ad;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-footer {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.history-container {
+    background-color: rgba(0, 0, 0, 0.392);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: fit-content;
+    text-align: center;
+}
+
+.history-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+
+}
